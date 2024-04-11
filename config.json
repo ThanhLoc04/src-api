@@ -1,0 +1,18 @@
+{
+  "version": "v1.0.0(beta)",
+  "port": "5000",
+  "url_docs": "https://example.com",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "blockIP":
+  {
+    "enable": true,
+    "file": "./block.json",
+    "message": "Your IP is not allowed access"
+  },
+  "limit_request":
+  {
+    "enable": true,
+    "limti": 10,
+    "message": "You've sent too many requests"
+  }
+}
